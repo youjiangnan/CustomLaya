@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uiComp>
+	<CustomRich className="CustomRich" runTSClass="CustomRich" inherit="Sprite" icon="Text" resName="text" defaultValue="text='text'" runClass="CustomRich" groups="公用,常用,宽高及位置,旋转及缩放" drag="3">
+		<prop name="text" tips="文本内容" type="string" default="{#ff0000:红色}文本" group="常用" />
+		<prop name="font" tips="字体" type="editoption" option="SHSCH,Arial,SimSun,Microsoft YaHei,SimHei,Helvetica" default="" group="常用" />
+		<prop name="fontSize" tips="字体大小" type="int" default="" group="常用" />
+		<prop name="bold" tips="是否粗体" type="bool" default="false" group="常用" />
+		<prop name="color" tips="文字颜色" type="color" default="" group="常用" />
+		<prop name="italic" tips="是否为斜体" type="bool" default="" group="常用" />
+		<prop name="align" tips="水平对齐方式" type="option" option="left,center,right" default="" group="常用" />
+		<prop name="valign" tips="垂直对齐方式" type="option" option="top,middle,bottom" default="" group="常用" />
+		<prop name="wordWrap" tips="文本是否自动换行，默认为false，不可自动换行。" type="bool" default="false" group="常用" />
+		<prop name="leading" tips="垂直行间距（以像素为单位）" type="int" default="" group="常用" />
+		<prop name="padding" tips="边距信息(上边距，右边距，下边距 , 左边距)" type="string" default="" group="常用" />
+		<prop name="overflow" tips="文本超出文本域后的行为" type="option" option="hidden,visible,scroll" default="" group="常用" />
+		<prop name="stroke" tips="描边宽度" type="number" default="0" group="常用" />
+		<prop name="strokeColor" tips="描边颜色" type="color" default="#000000" group="常用" />
+	</CustomRich>
+</uiComp>
